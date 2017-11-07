@@ -26,27 +26,29 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Crypto Currency"
+                android:text="@string/crypto_currency"
                 android:layout_margin="10dp"/>
 
             <Spinner
                 android:id="@+id/spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:entries="@array/cypto_array"
                 android:layout_margin="10dp"/>
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="World Currency"
+                android:text="@string/world_currency"
                 android:layout_margin="10dp"/>
 
             <Spinner
                 android:id="@+id/spinner2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:entries="@array/currency_array"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>

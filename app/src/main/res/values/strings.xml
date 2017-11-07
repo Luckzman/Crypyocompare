@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Crypyocompare</string>
+    <string name="crypto_currency">Crypto Currency</string>
+    <string name="world_currency">World Currency</string>
+
+    <string-array name="cypto_array">
+        <item>BTC - Bitcoin</item>
+        <item>ETH - Etherum</item>
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>NGN - Nigerian Naira</item>
+        <item>USD - US Dollar</item>
+        <item>EUR - Euro</item>
+        <item>JPY - Japanese Yen</item>
+        <item>GBP - British Pound</item>
+        <item>CHF - Swiss Franc</item>
+        <item>INR - Indian Rupee</item>
+        <item>PKR - Pakistan Rupee</item>
+        <item>ZAR - South African Rand</item>
+        <item>CAD - Canadian Dollar</item>
+        <item>RUB - Russian Ruble</item>
+        <item>AUD - Austrilian Dollar</item>
+        <item>HKD - Hong Kong Dollar</item>
+        <item>CHY - Chinese Yuan Renminbi</item>
+        <item>BRL - Brazilian Real</item>
+        <item>PHP - Phillipine Peso</item>
+        <item>MXN - Mexican Peso</item>
+        <item>ILS - Isreali New Shekel</item>
+        <item>NOK - Norwegian Krone</item>
+        <item>DKK - Danish Krone</item>
+    </string-array>
+
+
 </resources>
